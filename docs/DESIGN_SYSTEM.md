@@ -63,7 +63,7 @@ linear-gradient(180deg, #f5fbff 0%, #ffffff 100%)
 | `--shadow-xs`  | nhỏ                    | Border-shadow phân tách                  |
 | `--shadow-sm`  | nhẹ                    | Hover cards                              |
 | `--shadow-md`  | trung                  | Player card, config card, summary sticky |
-| `--shadow-lg`  | lớn                    | License floating, CTA                    |
+| `--shadow-lg`  | lớn                    | Card tác quyền floating, CTA             |
 | `--shadow-glow`| teal glow              | Button primary, play FAB                 |
 
 Section padding mặc định: `88px 0` (desktop), `56px 0` (mobile).
@@ -173,4 +173,4 @@ Mobile-first không bắt buộc — đa số style viết desktop, override mob
 ❌ Sai:
 - Tự đặt màu hex hardcode khi đã có `--c-blue-*`
 - Thêm font khác (Roboto, Open Sans…) — toàn site chỉ Plus Jakarta Sans
-- Dùng "license"/"cấp phép" trong copy — đã thay bằng "tác quyền"
+- Dùng wording cũ mang nghĩa nhượng quyền pháp lý trong copy — phải thay bằng "tác quyền" hoặc "giao dịch tác quyền"

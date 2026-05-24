@@ -14,7 +14,7 @@ export const useCartStore = defineStore('cart', {
   },
   actions: {
     add(item) {
-      // licenses are unique per configuration — push a new line
+      // Each tac quyen configuration is unique, so keep a separate cart line.
       this.items.push({ ...item, qty: 1, lineId: cryptoRandomId() })
     },
     remove(lineId) {

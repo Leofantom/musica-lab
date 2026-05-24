@@ -1,4 +1,4 @@
-// Mock catalog: songs available for licensing
+// Mock catalog: songs available for tac quyen transactions
 // Cover gradients used in lieu of artwork (no external assets)
 export const categories = [
   { id: 'all',        label: 'Tất cả',         icon: 'sparkles' },

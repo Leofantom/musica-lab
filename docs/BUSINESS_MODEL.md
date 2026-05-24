@@ -6,24 +6,24 @@
 
 ## 1. Định vị một câu
 
-> **MusicA là sàn môi giới (marketplace) ghép người mua với nghệ sĩ / nhà phát hành để mua tác quyền sử dụng tác phẩm âm nhạc trên môi trường số.**
+> **MusicA là nền tảng thương mại điện tử (marketplace) kết nối người mua với nghệ sĩ / nhà phát hành để giao dịch tác quyền tác phẩm âm nhạc trên môi trường số.**
 
 Không phải:
-- ❌ "Nền tảng cấp phép âm nhạc" (cấp phép = licensing → ám chỉ MusicA là chủ thể cấp phép, sai)
+- ❌ "Nền tảng phát hành quyền âm nhạc" (dễ làm người dùng hiểu MusicA là chủ thể phát hành quyền, sai)
 - ❌ "Nền tảng nghe nhạc" (Spotify-like, KHÔNG phải mục đích)
 - ❌ "Sàn nhạc số" (mơ hồ, có thể hiểu là sàn streaming)
 
 Đúng:
-- ✅ "Sàn môi giới tác quyền âm nhạc"
-- ✅ "Marketplace mua tác quyền tác phẩm âm nhạc"
-- ✅ "Kết nối nghệ sĩ với người mua tác quyền"
+- ✅ "Thương mại điện tử tác quyền âm nhạc"
+- ✅ "Marketplace giao dịch tác quyền tác phẩm âm nhạc"
+- ✅ "Kết nối nghệ sĩ với người mua để giao dịch tác quyền"
 
 ---
 
 ## 2. Hai bên user
 
 ### Bên Bán — Nghệ sĩ / Nhà phát hành (Publisher)
-- Đăng tác phẩm lên sàn kèm hồ sơ pháp lý (giấy SHTT, ISRC)
+- Đăng tác phẩm lên nền tảng kèm hồ sơ pháp lý (giấy SHTT, ISRC)
 - Định giá cơ bản, các biến thể giá
 - Bàn giao bộ tài sản tác quyền cho người mua sau khi giao dịch xong
 - Nhận tiền (MusicA giữ phí xử lý + VAT)
@@ -37,9 +37,9 @@ Người mua tác quyền để khai thác:
 
 ---
 
-## 3. Sản phẩm bán trên sàn
+## 3. Sản phẩm bán trên nền tảng
 
-**Mỗi "product" = 1 tác phẩm âm nhạc** có sẵn để mua tác quyền, với các **biến thể (variants)** quyết định giá:
+**Mỗi "product" = 1 tác phẩm âm nhạc** có sẵn để giao dịch tác quyền, với các **biến thể (variants)** quyết định giá:
 
 ### Variant cấp 1 — Mục đích sử dụng (purpose)
 - `youtube` — Phát hành YouTube (MV, vlog, short-form)
@@ -113,18 +113,18 @@ Khám phá ──> Chi tiết tác phẩm ──> Cấu hình variant ──> Th
 
 | Nên dùng                          | Đừng dùng                              |
 |-----------------------------------|----------------------------------------|
-| Mua tác quyền                     | Cấp phép, licensing                    |
-| Gói tác quyền / Cấu hình gói mua  | License package                        |
-| Bộ tài sản tác quyền              | License files                          |
-| Sàn môi giới                      | Nền tảng cấp phép                      |
-| Người mua                         | Người được cấp phép, Bên B (chỉ trong văn bản pháp lý) |
+| Giao dịch tác quyền               | Wording pháp lý cũ                     |
+| Gói tác quyền / Cấu hình gói mua  | Tên gói kiểu quốc tế cũ                |
+| Bộ tài sản tác quyền              | Tên file tiếng Anh cũ                  |
+| Thương mại điện tử                | Wording nền tảng trung gian kiểu cũ    |
+| Người mua                         | Cách gọi pháp lý trong hợp đồng        |
 | Nghệ sĩ / Nhà phát hành           | Chủ sở hữu bản quyền (chỉ dùng trong văn bản pháp lý) |
-| Hợp đồng tác quyền                | Hợp đồng cấp phép                      |
-| Giao dịch                         | Cấp phép (verb)                        |
-| Tìm tác quyền                     | Tìm license                            |
-| Mã giao dịch                      | Mã license                             |
+| Hợp đồng tác quyền                | Tên hợp đồng kiểu cũ                   |
+| Giao dịch tác quyền               | Động từ nhượng quyền kiểu cũ           |
+| Tìm tác quyền                     | Từ khoá tìm kiếm tiếng Anh cũ          |
+| Mã giao dịch                      | Mã giao dịch kiểu quốc tế cũ           |
 
-**Lưu ý**: trong nội dung hợp đồng pháp lý có thể vẫn dùng các thuật ngữ chuẩn ("quyền sử dụng", "Bên A", "Bên B") — nhưng UI marketing/copy luôn dùng nhóm bên trái.
+**Lưu ý**: trong nội dung hợp đồng pháp lý có thể vẫn dùng các thuật ngữ chuẩn ("Bên A", "Bên B", phạm vi giao dịch) — nhưng UI marketing/copy luôn dùng nhóm bên trái.
 
 ---
 

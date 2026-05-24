@@ -8,7 +8,7 @@ import BrandLogo from './BrandLogo.vue'
       <div class="footer-grid">
         <div class="brand-col">
           <BrandLogo :size="36" />
-          <p class="tag">Sàn môi giới tác quyền âm nhạc — kết nối trực tiếp nghệ sĩ với người mua một cách minh bạch, linh hoạt, hợp pháp.</p>
+          <p class="tag">Thương mại điện tử tác quyền âm nhạc — kết nối trực tiếp nghệ sĩ với người mua một cách minh bạch, linh hoạt, hợp pháp.</p>
           <div class="socials">
             <a href="#" aria-label="Facebook" class="soc">f</a>
             <a href="#" aria-label="YouTube" class="soc">▶</a>

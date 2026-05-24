@@ -1,6 +1,6 @@
-# MusicA — Sàn môi giới tác quyền âm nhạc
+# MusicA — Thương mại điện tử tác quyền âm nhạc
 
-> Vue 3 prototype của **MusicA**, sàn môi giới ghép người mua (Creator, doanh nghiệp, SME) với nghệ sĩ / nhà phát hành để **mua tác quyền** sử dụng tác phẩm âm nhạc trên môi trường số.
+> Vue 3 prototype của **MusicA**, nền tảng thương mại điện tử kết nối người mua (Creator, doanh nghiệp, SME) với nghệ sĩ / nhà phát hành để **giao dịch tác quyền** tác phẩm âm nhạc trên môi trường số.
 
 ![tech](https://img.shields.io/badge/Vue-3.5-42b883) ![vite](https://img.shields.io/badge/Vite-6-646cff) ![pinia](https://img.shields.io/badge/Pinia-2-ffd859) ![router](https://img.shields.io/badge/Vue%20Router-4-42b883)
 
@@ -73,7 +73,7 @@ musica/
 Repo này có sẵn skill **`musica-design`** ở `.claude/skills/musica-design/SKILL.md` — Claude Code sẽ tự đọc khi làm việc trong project, đảm bảo:
 
 - Dùng đúng design tokens / utility class thay vì tạo mới
-- Giữ nhất quán terminology (mua tác quyền, không dùng "license"/"cấp phép")
+- Giữ nhất quán terminology (`thương mại điện tử`, `giao dịch tác quyền`, tránh wording cũ mang nghĩa nhượng quyền pháp lý)
 - Tái sử dụng các primitive trong `components/ui/` thay vì viết lại
 
 Trước khi build feature mới, đọc lần lượt: `docs/BUSINESS_MODEL.md` → `docs/ARCHITECTURE.md` → `docs/DESIGN_SYSTEM.md`.

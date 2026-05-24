@@ -145,4 +145,4 @@ Khi repo đã init:
 - [ ] Dùng utility class trước khi viết CSS mới
 - [ ] Nếu trang có scroll-reveal, đảm bảo App.vue đang `useReveal()` (đã có)
 - [ ] Mobile breakpoint < 640px hoạt động (test với DevTools / preview tool)
-- [ ] Terminology: KHÔNG dùng "license", "cấp phép" → dùng "tác quyền"
+- [ ] Terminology: ưu tiên "tác quyền", "giao dịch tác quyền", "thương mại điện tử"; tránh wording cũ kiểu phát hành quyền

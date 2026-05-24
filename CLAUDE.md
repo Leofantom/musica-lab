@@ -4,11 +4,11 @@ Project context loaded automatically by Claude Code. Keep this file short — li
 
 ## What this is
 
-Vue 3 prototype for **MusicA**, a marketplace that brokers buyers and artists for the purchase of music **tác quyền** (copyright/usage rights). NOT a licensing platform, NOT a streaming service.
+Vue 3 prototype for **MusicA**, an e-commerce marketplace that connects buyers and artists for music **tac quyen** transactions. NOT a rights-issuance platform, NOT a streaming service.
 
 ## Critical rules (do not violate)
 
-1. **Terminology**: use "mua tác quyền" / "gói tác quyền" / "sàn môi giới". Never use "cấp phép" / "license" / "licensing" in UI copy (legal contract body excepted).
+1. **Terminology**: use "giao dịch tác quyền" / "gói tác quyền" / "thương mại điện tử". Never use outdated rights-issuance wording in UI copy (legal contract body excepted).
 2. **Reuse primitives**: any waveform → `<WaveBars>` from `src/components/ui/`. Any tick list → `<CheckList>`. Any section header → `<SectionHead>`.
 3. **Design tokens only**: colors / radius / shadow come from CSS variables in `src/styles/main.css`. No hardcoded brand hex.
 4. **Stack**: Vue 3 + Vite + Pinia + vue-router. No Tailwind, no SCSS, no UI library.

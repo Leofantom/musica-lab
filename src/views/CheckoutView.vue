@@ -162,7 +162,7 @@ function back() { if (step.value > 1) step.value-- }
                 <div class="ct-head">
                   <div>
                     <strong>BÊN BÁN — NGHỆ SĨ / NPH (Bên A)</strong>
-                    <span>Đại diện thông qua sàn môi giới MusicA</span>
+                    <span>Đại diện thông qua nền tảng thương mại điện tử MusicA</span>
                   </div>
                   <div>
                     <strong>BÊN MUA (Bên B)</strong>
@@ -172,7 +172,7 @@ function back() { if (step.value > 1) step.value-- }
 
                 <div class="ct-body">
                   <h4>Điều 1. Đối tượng giao dịch</h4>
-                  <p>Bên A đồng ý chuyển nhượng cho Bên B quyền sử dụng (tác quyền) các tác phẩm âm nhạc liệt kê dưới đây, trong phạm vi, mục đích và thời hạn được nêu cụ thể tại từng gói tác quyền.</p>
+                  <p>Bên A đồng ý thực hiện giao dịch tác quyền với Bên B đối với các tác phẩm âm nhạc liệt kê dưới đây, trong phạm vi, mục đích và thời hạn được nêu cụ thể tại từng gói tác quyền.</p>
 
                   <table class="ct-table">
                     <thead><tr><th>Tác phẩm</th><th>Tác giả</th><th>Cấu hình</th><th>Phí (₫)</th></tr></thead>

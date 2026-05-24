@@ -51,15 +51,15 @@ function pickCat(id) { activeCat.value = id }
     <div class="container hero-inner">
       <div class="hero-copy">
         <span class="eyebrow rise-in rise-in-1">
-          <i class="dot"></i> Sàn môi giới tác quyền âm nhạc · 2026
+          <i class="dot"></i> Thương mại điện tử tác quyền âm nhạc · 2026
         </span>
         <h1 class="rise-in rise-in-2">
           Mua tác quyền <span class="keep-together">âm nhạc</span> <br />
           <span class="gradient-text">trực tiếp từ nghệ sĩ.</span>
         </h1>
         <p class="lead rise-in rise-in-3">
-          MusicA là sàn môi giới ghép người mua với nghệ sĩ — minh bạch, an toàn pháp lý
-          và bàn giao đầy đủ bộ tài sản tác quyền chỉ trong vài phút.
+          MusicA là nền tảng thương mại điện tử kết nối người mua với nghệ sĩ — minh bạch,
+          an toàn pháp lý và bàn giao đầy đủ bộ tài sản tác quyền chỉ trong vài phút.
         </p>
 
         <form class="hero-search rise-in rise-in-4" @submit.prevent>
@@ -195,7 +195,7 @@ function pickCat(id) { activeCat.value = id }
       <div class="section-head reveal">
         <div>
           <span class="eyebrow">Vì sao chọn MusicA</span>
-          <h2>Sàn môi giới thế hệ mới</h2>
+          <h2>Thương mại điện tử thế hệ mới</h2>
           <p>Thiết kế cho nền kinh tế sáng tạo nội dung số — linh hoạt, minh bạch, dễ tiếp cận.</p>
         </div>
       </div>
