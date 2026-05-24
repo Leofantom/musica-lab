@@ -54,7 +54,7 @@ function pickCat(id) { activeCat.value = id }
           <i class="dot"></i> Sàn môi giới tác quyền âm nhạc · 2026
         </span>
         <h1 class="rise-in rise-in-2">
-          Mua tác quyền âm nhạc <br />
+          Mua tác quyền <span class="keep-together">âm nhạc</span> <br />
           <span class="gradient-text">trực tiếp từ nghệ sĩ.</span>
         </h1>
         <p class="lead rise-in rise-in-3">
@@ -269,9 +269,12 @@ function pickCat(id) { activeCat.value = id }
 }
 .hero-inner {
   display: grid;
-  grid-template-columns: 1.05fr 1fr;
-  gap: 56px;
+  grid-template-columns: minmax(0, 1.16fr) minmax(360px, 0.84fr);
+  gap: 44px;
   align-items: center;
+}
+.hero-copy {
+  min-width: 0;
 }
 .hero-copy h1 {
   font-family: var(--font-display);
@@ -282,11 +285,15 @@ function pickCat(id) { activeCat.value = id }
   font-weight: 800;
   text-wrap: balance;
 }
+.keep-together {
+  display: inline-block;
+  white-space: nowrap;
+}
 .hero-copy .lead {
   font-size: 17px;
   line-height: 1.65;
   color: var(--c-text-soft);
-  max-width: 540px;
+  max-width: 620px;
   margin: 0 0 28px;
 }
 .eyebrow .dot {
@@ -343,9 +350,9 @@ function pickCat(id) { activeCat.value = id }
 .hero-stats {
   margin-top: 44px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 18px;
-  max-width: 560px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px 24px;
+  max-width: 760px;
 }
 .stat strong {
   display: block;
@@ -354,7 +361,13 @@ function pickCat(id) { activeCat.value = id }
   color: var(--c-text);
   letter-spacing: -0.02em;
 }
-.stat span { color: var(--c-text-mute); font-size: 12.5px; }
+.stat span {
+  color: var(--c-text-mute);
+  display: block;
+  font-size: 13.5px;
+  line-height: 1.45;
+  white-space: nowrap;
+}
 
 /* Decorative orbs */
 .orb { position: absolute; border-radius: 50%; filter: blur(60px); opacity: 0.55; z-index: -1; pointer-events: none; }
@@ -673,7 +686,8 @@ function pickCat(id) { activeCat.value = id }
 @media (max-width: 980px) {
   .hero-inner { grid-template-columns: 1fr; gap: 40px; }
   .hero-art { min-height: 460px; }
-  .hero-stats { grid-template-columns: repeat(4, 1fr); }
+  .hero-copy .lead { max-width: 700px; }
+  .hero-stats { grid-template-columns: repeat(4, minmax(0, 1fr)); max-width: 820px; }
 }
 @media (max-width: 640px) {
   .hero { padding: 28px 0 60px; }
@@ -681,6 +695,7 @@ function pickCat(id) { activeCat.value = id }
   .hero-copy .lead { font-size: 15px; }
   .hero-stats { grid-template-columns: repeat(2, 1fr); gap: 14px; margin-top: 28px; }
   .stat strong { font-size: 22px; }
+  .stat span { white-space: normal; }
   .hero-search { padding: 6px; flex-wrap: wrap; }
   .hero-search input { font-size: 14px; min-width: 0; }
   .hero-search .btn { width: 100%; margin-top: 4px; }
